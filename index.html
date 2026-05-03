@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AquaPulse – Drink Different</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Loading overlay -->
+    <div id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Animated Navbar -->
+    <nav id="navbar">
+        <a href="#hero" class="logo"><img src="logo.png" alt="AquaPulse Logo" /></a>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+        <canvas id="heroCanvas"></canvas>
+        <div class="hero-content">
+            <h1>AquaPulse – DRINK DIFFERENT</h1>
+            <p>Not Just Water Bottles. A Lifestyle.</p>
+            <a href="#products" class="cta-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products" class="section products-section">
+        <h2>Our Bottles</h2>
+        <div class="product-grid">
+            <!-- Example product cards -->
+            <div class="product-card">
+                <img src="sports.png" alt="Sports Bottle" />
+                <h3>Sports Bottle</h3>
+                <p class="price">$29.99</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="gym.png" alt="Gym Bottle" />
+                <h3>Gym Bottle</h3>
+                <p class="price">$34.99</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="stainless.png" alt="Stainless Steel Bottle" />
+                <h3>Stainless Steel Bottle</h3>
+                <p class="price">$44.99</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="smart.png" alt="Smart Temperature Bottle" />
+                <h3>Smart Temperature Bottle</h3>
+                <p class="price">$59.99</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section features-section">
+        <h2>Why Choose AquaPulse?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon">💧</div>
+                <h3>Leak Proof</h3>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🌡️</div>
+                <h3>Temperature Control</h3>
+            </div>
+            <div class="feature-card">
+                <div class="icon">♻️</div>
+                <h3>Eco Friendly</h3>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🏆</div>
+                <h3>Premium Build</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cool Animation Section (scroll‑into‑view) -->
+    <section id="animation" class="section animation-section">
+        <h2>Experience the Flow</h2>
+        <p class="anim-text">Scroll down to see smooth fade‑in, slide‑up and scale‑up animations powered by
+            IntersectionObserver.</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials-section">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p>"The best bottle I've ever owned! The design is futuristic and the temperature control is perfect."
+                </p>
+                <h4>- Alex</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"I love the neon glow and the glass‑morphic feel. It truly feels like a lifestyle."</p>
+                <h4>- Maya</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer-section">
+        <div class="footer-logo"><img src="logo.png" alt="AquaPulse Logo" /></div>
+        <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#features">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+        </div>
+        <p class="copyright">© 2026 AquaPulse. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Chatbase Integration -->
+    <script>
+        window.chatbaseConfig = {
+            chatbotId: "s2UlMxkGqzMpn-FtEF2kB",
+        }
+    </script>
+    <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="s2UlMxkGqzMpn-FtEF2kB"
+        domain="www.chatbase.co"
+        defer>
+    </script>
+</body>
+
+</html>
